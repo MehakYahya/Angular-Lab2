@@ -1,0 +1,16 @@
+
+
+<main class="main">
+  <div class="content">
+    <hello name="{{ name }}"></hello>
+
+<input value="text" [(ngModel)]="input" placeholder="Enter your name" required minlength="3" /><br>
+<input type="number" [(ngModel)]="age" placeholder="Enter your age" required pattern="[0-9]"> <br>
+<input type="email" [(ngModel)]="email" placeholder="Enter your email" required email><br>
+<input type="text" [(ngModel)]="course" placeholder="Enter your course"><br>
+
+<button type="submit" >Submit</button>
+
+  </div>
+  </main>
+
